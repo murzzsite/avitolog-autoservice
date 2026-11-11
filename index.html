@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Авитолог для автосервисов — ведение кабинета на Авито, 15 000 ₽ в месяц</title>
+<meta name="description" content="Ведение профиля автосервиса на Авито: объявления, фото, продвижение, цены, настройка кабинета, работа с поддержкой. 15 000 ₽ в месяц, оплата помесячно. Работаем в городах от 500 000 жителей. Бесплатный мини-разбор профиля.">
+<meta property="og:title" content="Авитолог для автосервисов">
+<meta property="og:description" content="Больше заявок и заездов с Авито. Ведение кабинета — 15 000 ₽ в месяц. Мини-разбор вашего профиля бесплатно.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#E8ECEE">
+<script>document.documentElement.classList.add('js')</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geologica:wght@400;500;600;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="header__inner">
+    <a class="logo" href="#top" aria-label="Авитолог для автосервисов, на главную">
+      <svg viewBox="0 0 40 40" width="32" height="32" aria-hidden="true"><rect x="3" y="4" width="5" height="32" fill="currentColor"/><rect x="32" y="4" width="5" height="32" fill="currentColor"/><rect x="8" y="22" width="24" height="4" fill="currentColor"/><path d="M12 22v-4l3-4h10l3 4v4z" class="logo__car"/></svg>
+      <span>Авитолог<small> для автосервисов</small></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Разделы">
+      <a href="#work">Что входит</a>
+      <a href="#audit">Проверить профиль</a>
+      <a href="#price">Стоимость</a>
+      <a href="#start">Запуск</a>
+      <a href="#faq">Вопросы</a>
+    </nav>
+    <a class="btn btn--small header__cta" href="#contact"><span>Получить разбор</span></a>
+    <button class="burger" id="burger" aria-label="Меню" aria-expanded="false"><i></i><i></i></button>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero">
+  <h1 class="hero__title" data-split>Ведём кабинет автосервиса на Авито</h1>
+  <div class="hero__text">
+    <p class="hero__lead">Публикуем объявления, подбираем фото, настраиваем продвижение и цены, решаем вопросы с поддержкой. Цель одна: больше заявок и заездов в ваш сервис.</p>
+    <div class="hero__actions">
+      <a class="btn" href="#contact" data-magnet><span>Бесплатный мини-разбор профиля</span></a>
+      <a class="textlink" href="#work">Что входит в работу</a>
+    </div>
+    <p class="hero__fine">15 000 ₽ в месяц. Оплата помесячно. Города от 500 000 жителей.</p>
+  </div>
+
+  <div class="hero__stage" id="heroStage">
+    <svg class="car-hero" viewBox="0 0 800 400" role="img" aria-label="Автомобиль на подъёмнике автосервиса">
+      <rect class="floor" x="-200" y="358" width="1200" height="42"/>
+      <g class="hcar" id="hcar">
+        <path class="car-body" d="M60 300 L60 262 Q60 240 86 236 L205 224 L272 160 Q286 148 306 148 L478 148 Q502 148 518 162 L580 222 L700 236 Q730 240 730 266 L730 300 Z"/>
+        <path class="car-glass" d="M232 222 L286 170 Q292 165 302 165 L388 165 L388 222 Z"/>
+        <path class="car-glass" d="M402 165 L476 165 Q486 165 493 172 L546 222 L402 222 Z"/>
+        <rect class="car-light" x="690" y="250" width="40" height="14"/>
+        <rect class="car-light car-light--r" x="60" y="250" width="22" height="14"/>
+        <g class="wheel" transform="translate(205 306)"><circle r="52" class="tyre"/><circle r="30" class="rim"/><g class="spin"><rect x="-3" y="-30" width="6" height="60" class="spoke"/><rect x="-30" y="-3" width="60" height="6" class="spoke"/></g></g>
+        <g class="wheel" transform="translate(585 306)"><circle r="52" class="tyre"/><circle r="30" class="rim"/><g class="spin"><rect x="-3" y="-30" width="6" height="60" class="spoke"/><rect x="-30" y="-3" width="60" height="6" class="spoke"/></g></g>
+      </g>
+    </svg>
+    <div class="ad" data-ui aria-label="Пример карточки объявления автосервиса">
+      <div class="ad__photo" aria-hidden="true">
+        <svg viewBox="0 0 120 80"><rect width="120" height="80" class="ad__bg"/><circle cx="60" cy="42" r="26" class="ad__tyre"/><circle cx="60" cy="42" r="13" class="ad__rim"/><circle cx="60" cy="42" r="3" class="ad__tyre"/></svg>
+      </div>
+      <div class="ad__body">
+        <b>Диагностика подвески</b>
+        <span>Цена указана, фото на каждую услугу</span>
+        <i class="ad__tag">Продвижение включено</i>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE: города -->
+<div class="ticker" aria-label="Города, в которых работаем">
+  <div class="ticker__track" id="ticker">
+    <p>Москва · Санкт-Петербург · Новосибирск · Екатеринбург · Казань · Нижний Новгород · Красноярск · Челябинск · Самара · Уфа · Ростов-на-Дону · Краснодар · Омск · Воронеж · Пермь · Волгоград · Саратов · Тюмень · Тольятти · Ижевск · Барнаул · Иркутск · Хабаровск · Ярославль · Владивосток · Томск · Оренбург · Кемерово · Рязань · Тула · </p>
+    <p aria-hidden="true">Москва · Санкт-Петербург · Новосибирск · Екатеринбург · Казань · Нижний Новгород · Красноярск · Челябинск · Самара · Уфа · Ростов-на-Дону · Краснодар · Омск · Воронеж · Пермь · Волгоград · Саратов · Тюмень · Тольятти · Ижевск · Барнаул · Иркутск · Хабаровск · Ярославль · Владивосток · Томск · Оренбург · Кемерово · Рязань · Тула · </p>
+  </div>
+</div>
+
+<!-- LIFT SCENE -->
+<section class="lift" id="work" aria-labelledby="work-title">
+  <div class="lift__sticky">
+    <h2 class="lift__title" id="work-title" data-nosplit>Кабинет на подъёмнике</h2>
+    <div class="lift__grid">
+      <div class="lift__stage">
+        <svg class="lift-svg" viewBox="0 0 800 520" aria-hidden="true">
+          <rect class="floor" x="0" y="470" width="800" height="50"/>
+          <rect class="post" x="44" y="120" width="26" height="350"/>
+          <rect class="post" x="730" y="120" width="26" height="350"/>
+          <rect class="post-cap" x="30" y="108" width="54" height="16"/>
+          <rect class="post-cap" x="716" y="108" width="54" height="16"/>
+          <g id="liftCar">
+            <rect class="arm" x="70" y="418" width="660" height="14"/>
+            <rect class="pad" x="190" y="406" width="44" height="14"/>
+            <rect class="pad" x="570" y="406" width="44" height="14"/>
+            <path class="car-body" d="M60 380 L60 342 Q60 320 86 316 L205 304 L272 240 Q286 228 306 228 L478 228 Q502 228 518 242 L580 302 L700 316 Q730 320 730 346 L730 380 Z"/>
+            <path class="car-glass" d="M232 302 L286 250 Q292 245 302 245 L388 245 L388 302 Z"/>
+            <path class="car-glass" d="M402 245 L476 245 Q486 245 493 252 L546 302 L402 302 Z"/>
+            <rect class="car-light" x="690" y="330" width="40" height="14"/>
+            <rect class="car-light car-light--r" x="60" y="330" width="22" height="14"/>
+            <g class="wheel" transform="translate(205 386)"><circle r="52" class="tyre"/><circle r="30" class="rim"/><g class="spin"><rect x="-3" y="-30" width="6" height="60" class="spoke"/><rect x="-30" y="-3" width="60" height="6" class="spoke"/></g></g>
+            <g class="wheel" transform="translate(585 386)"><circle r="52" class="tyre"/><circle r="30" class="rim"/><g class="spin"><rect x="-3" y="-30" width="6" height="60" class="spoke"/><rect x="-30" y="-3" width="60" height="6" class="spoke"/></g></g>
+            <!-- узлы -->
+            <circle class="pin" data-pin="0" cx="350" cy="350" r="13"/>
+            <circle class="pin" data-pin="1" cx="706" cy="337" r="13"/>
+            <circle class="pin" data-pin="2" cx="118" cy="337" r="13"/>
+            <circle class="pin" data-pin="3" cx="585" cy="386" r="13"/>
+            <circle class="pin" data-pin="4" cx="445" cy="272" r="13"/>
+            <circle class="pin" data-pin="5" cx="400" cy="425" r="13"/>
+          </g>
+        </svg>
+      </div>
+
+      <ol class="lift__list" id="liftList">
+        <li class="lift__item">
+          <h3>Объявления</h3>
+          <p>Публикуем объявления на каждую услугу сервиса и следим, чтобы они не пропадали из выдачи.</p>
+        </li>
+        <li class="lift__item">
+          <h3>Фото</h3>
+          <p>Подбираем фото и работаем с теми, что у вас уже есть: чтобы объявление выглядело как сервис, которому доверяют.</p>
+        </li>
+        <li class="lift__item">
+          <h3>Продвижение</h3>
+          <p>Настраиваем продвижение под ваши услуги и город. Без продвижения вслепую.</p>
+        </li>
+        <li class="lift__item">
+          <h3>Цены</h3>
+          <p>Корректируем цены в объявлениях, когда меняются сезон, услуги и конкуренты.</p>
+        </li>
+        <li class="lift__item">
+          <h3>Профиль</h3>
+          <p>Настраиваем профиль, когда это нужно: описание, адрес, режим работы, структура кабинета.</p>
+        </li>
+        <li class="lift__item">
+          <h3>Поддержка</h3>
+          <p>Общаемся с техподдержкой Авито, когда что-то сломалось: блокировки, отклонённые объявления, непонятные ограничения.</p>
+        </li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- AUDIT -->
+<section class="audit" id="audit" aria-labelledby="audit-title">
+  <div class="audit__intro">
+    <h2 id="audit-title" data-split>Проверьте профиль за минуту</h2>
+    <p>Отметьте, что у вас уже есть. Соберём заказ-наряд: что в профиле не работает на заявки.</p>
+  </div>
+  <div class="audit__sheet" id="auditSheet">
+    <fieldset class="audit__checks">
+      <legend class="sr">Что есть в вашем профиле на Авито</legend>
+      <label class="chk"><input type="checkbox" data-bad="Объявление не на каждую услугу: часть запросов проходит мимо вас"><span>Отдельное объявление на каждую услугу</span></label>
+      <label class="chk"><input type="checkbox" data-bad="Мало фото или они не показывают сервис: люди выбирают тех, кого видно"><span>Фото каждой услуги и самого сервиса</span></label>
+      <label class="chk"><input type="checkbox" data-bad="Нет цен в объявлениях: клиент уходит к тем, у кого цена видна"><span>Цены указаны в каждом объявлении</span></label>
+      <label class="chk"><input type="checkbox" data-bad="Цены не пересматриваются: сезон и конкуренты уже сдвинулись"><span>Цены пересматриваются по сезону</span></label>
+      <label class="chk"><input type="checkbox" data-bad="Продвижение выбрано наугад: бюджет уходит, заявок не прибавляется"><span>Продвижение настроено под ваши услуги</span></label>
+      <label class="chk"><input type="checkbox" data-bad="Профиль заполнен не полностью: адрес, время работы, описание"><span>Профиль заполнен: адрес, часы, описание</span></label>
+      <label class="chk"><input type="checkbox" data-bad="Объявления устаревают и выпадают из выдачи"><span>Объявления обновляются и не закрываются</span></label>
+      <label class="chk"><input type="checkbox" data-bad="Проблемы с модерацией или блокировкой висят без ответа"><span>Вопросы с поддержкой Авито закрываются быстро</span></label>
+    </fieldset>
+    <div class="audit__out" aria-live="polite">
+      <p class="audit__count"><b id="auditN">8</b><span id="auditLbl">неисправностей из 8</span></p>
+      <p class="audit__verdict" id="auditVerdict">Ничего не отмечено: значит, профиль почти не ведётся или вы не уверены. Разберём бесплатно.</p>
+      <ul class="audit__bad" id="auditBad"></ul>
+      <a class="btn" href="#contact" id="auditGo" data-magnet><span>Разобрать мой профиль бесплатно</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- SELF vs -->
+<section class="self" aria-labelledby="self-title">
+  <div class="self__head">
+    <h2 id="self-title" data-split>Справиться самому можно</h2>
+    <p class="self__lead">Вопрос в том, чем занят владелец: ремонтом и людьми, а не фото, ставками и перепиской с поддержкой.</p>
+  </div>
+  <div class="self__cols">
+    <div class="self__col self__col--you" data-reveal>
+      <h3>Если вести самому</h3>
+      <ul>
+        <li>Между заказами искать и обрабатывать фото</li>
+        <li>Гадать, сколько вкладывать в продвижение</li>
+        <li>Вспоминать про цены, когда поток уже просел</li>
+        <li>Ждать ответа поддержки, пока объявление стоит</li>
+      </ul>
+    </div>
+    <div class="self__col self__col--we" data-reveal>
+      <h3>Если ведёт авитолог</h3>
+      <ul>
+        <li>Вы присылаете, что есть. Остальное делаем мы</li>
+        <li>Продвижение настроено под ваши услуги и город</li>
+        <li>Цены корректируются, когда меняется спрос</li>
+        <li>С поддержкой общаемся мы, вы занимаетесь сервисом</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- PRICE -->
+<section class="price" id="price" aria-labelledby="price-title">
+  <div class="price__big" data-reveal>
+    <h2 id="price-title">Ведение кабинета</h2>
+    <p class="price__sum"><b>15 000 ₽</b><span>в месяц</span></p>
+    <p class="price__note">Оплата помесячно. Результат зависит от сезона, ваших услуг и конкурентов в городе, поэтому честно обещаем одно: работаем на больше заявок и заездов.</p>
+    <a class="btn" href="#contact" data-magnet><span>Начать с бесплатного разбора</span></a>
+  </div>
+  <div class="price__incl" data-reveal>
+    <h3>В стоимость входит</h3>
+    <ul>
+      <li>Публикация объявлений</li>
+      <li>Подбор фото и работа с вашими</li>
+      <li>Продвижение объявлений</li>
+      <li>Корректировка цен</li>
+      <li>Настройка профиля при необходимости</li>
+      <li>Работа с техподдержкой Авито</li>
+    </ul>
+  </div>
+</section>
+
+<!-- START -->
+<section class="start" id="start" aria-labelledby="start-title">
+  <h2 id="start-title" data-split>Профиль запущен за два дня</h2>
+  <p class="start__sub">Если вы вовремя присылаете нужные данные.</p>
+  <ol class="start__steps">
+    <li data-reveal><h3>Бесплатный разбор</h3><p>Смотрим ваш профиль и показываем, где он теряет заявки.</p></li>
+    <li data-reveal><h3>Вы присылаете данные</h3><p>Доступ к кабинету, фото, список услуг и цены. Чем быстрее, тем быстрее запуск.</p></li>
+    <li data-reveal><h3>Запуск до двух дней</h3><p>Публикуем объявления, настраиваем профиль и продвижение.</p></li>
+    <li data-reveal><h3>Ведём дальше</h3><p>Корректируем цены, обновляем объявления, решаем вопросы с поддержкой.</p></li>
+  </ol>
+</section>
+
+<!-- FOR WHOM -->
+<section class="fit" aria-labelledby="fit-title">
+  <h2 id="fit-title" data-split>С кем работаем</h2>
+  <div class="fit__cols">
+    <p data-reveal><b>Подходит</b> автосервису с командой и потоком работ: владелец, которому не хватает заявок и заездов, и который хочет заниматься сервисом, а не кабинетом.</p>
+    <p data-reveal><b>Не подходит</b> гаражу, где работает один мастер и в месяц проходит пара машин: на этом масштабе ведение кабинета не окупится. Лучше сказать честно сразу.</p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq" id="faq" aria-labelledby="faq-title">
+  <h2 id="faq-title" data-split>Вопросы владельцев</h2>
+  <div class="faq__list">
+    <details data-reveal><summary>Зачем платить, если я справлюсь сам?</summary><p>Справиться можно. Но фото, цены, продвижение и переписка с поддержкой отнимают то время, которое вы тратите на сервис. Мы делаем это каждый день и знаем, где профиль теряет заявки.</p></details>
+    <details data-reveal><summary>Какой результат вы гарантируете?</summary><p>Точные цифры не обещаем: они зависят от сезона, ваших услуг и конкурентов в городе. Обещаем работу на рост числа заявок и заездов. Начать можно с бесплатного разбора, там видно, что именно улучшим.</p></details>
+    <details data-reveal><summary>Платное продвижение на Авито у нас не работает</summary><p>Часто так бывает, когда продвижение выбрано наугад. Мы подбираем продвижение под ваши услуги и город и перенастраиваем, если оно не даёт результата. Не сливайте бюджет, доверьте это тем, кто этим занимается.</p></details>
+    <details data-reveal><summary>Что нужно от меня для старта?</summary><p>Доступ к кабинету, фото, список услуг и цены. Если присылаете всё вовремя, профиль запускаем до двух дней.</p></details>
+    <details data-reveal><summary>Как устроена оплата?</summary><p>15 000 ₽ в месяц за ведение кабинета. Платите помесячно.</p></details>
+    <details data-reveal><summary>В каких городах работаете?</summary><p>Во всех городах России с населением от 500 000 жителей.</p></details>
+  </div>
+</section>
+
+<!-- FORM -->
+<section class="contact" id="contact" aria-labelledby="contact-title">
+  <div class="contact__text">
+    <h2 id="contact-title" data-split>Разбор профиля бесплатно</h2>
+    <p>Посмотрим профиль и скажем, где он теряет заявки. Без обязательств: решение о ведении за вами.</p>
+  </div>
+  <form class="form" id="leadForm" data-reveal novalidate>
+    <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+    <label class="field"><span>Как к вам обращаться</span><input type="text" name="name" autocomplete="given-name" required></label>
+    <label class="field"><span>Телефон или Telegram</span><input type="text" name="phone" autocomplete="tel" placeholder="+7 или @ник" required></label>
+    <label class="field"><span>Город и название сервиса</span><input type="text" name="city" autocomplete="off"></label>
+    <label class="field"><span>Ссылка на ваш профиль на Авито, если есть</span><input type="text" name="profile" autocomplete="off"></label>
+    <label class="field"><span>Комментарий</span><textarea name="comment" rows="3" id="comment"></textarea></label>
+    <label class="consent"><input type="checkbox" name="consent" required><span>Согласен на обработку данных по <a href="privacy.html" target="_blank" rel="noopener">политике конфиденциальности</a></span></label>
+    <button class="btn btn--wide" type="submit"><span>Получить разбор</span></button>
+    <p class="form__note" id="formNote" role="status"></p>
+  </form>
+</section>
+
+</main>
+
+<footer class="footer">
+  <p class="footer__name">Авитолог для автосервисов</p>
+  <p class="footer__line">Ведение кабинета на Авито. Города от 500 000 жителей. <a href="privacy.html">Политика конфиденциальности</a></p>
+  <p class="footer__copy">© <span id="year">2026</span></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
